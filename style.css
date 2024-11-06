@@ -1,0 +1,88 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: white;
+}
+
+form {
+    margin: auto;
+    background-color:  #CBDCEB;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px  black;
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #608BC1;
+}
+
+fieldset {
+    border: 2px solid  #608BC1;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color:   #CBDCEB;
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #608BC1;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #608BC1;
+
+}
+
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid #608BC1;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 30%;
+    background-color:  #608BC1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px black;
+    margin-top: 10px;
+    margin-left: 35%;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+button :hover {
+    color: rgb(116, 112, 112); 
+}
+
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid  #608BC1;
+    border-radius: 8px;
+    background-color: rgb(228, 242, 255);
+    box-shadow: 0 4px 8px black;
+    /* making the resume editale */
+    outline: none;
+}
+
+#resume-display h2 {
+    color:#608BC1;
+}
